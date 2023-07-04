@@ -3,7 +3,7 @@ import { useLocation, useParams } from "react-router-dom";
 import { useIsServer, useLocale } from "../hooks";
 import { Doc } from "../../../libs/types/document";
 import { initPlayIframe } from "../playground/utils";
-// import { addExplainButton } from "./code/ai-explain";
+import { addExplainButton } from "./code/ai-explain";
 import {
   addBreakoutButton,
   getCodeAndNodesForIframe,
@@ -85,8 +85,7 @@ export function useCopyExamplesToClipboardAndAIExplain(doc: Doc | undefined) {
       .querySelectorAll("div.code-example pre:not(.hidden)")
       .forEach((element) => {
         const header = element.parentElement?.querySelector(".example-header");
-        // Paused for now
-        // addExplainButton(header, element);
+        addExplainButton(header, element);
         if (!navigator.clipboard) {
           console.log(
             "Copy-to-clipboard disabled because your browser does not appear to support it."
