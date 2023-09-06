@@ -1,5 +1,35 @@
 # Changelog
 
+## [2.31.0](https://github.com/mdn/yari/compare/v2.30.0...v2.31.0) (2023-09-06)
+
+
+### Features
+
+* **glean:** add is_baseline metric to pings ([#9476](https://github.com/mdn/yari/issues/9476)) ([231d6aa](https://github.com/mdn/yari/commit/231d6aab8f1c8efe159d268c261446c5b7ae12d9))
+
+
+### Bug Fixes
+
+* **eslint:** support running in git submodule ([#9578](https://github.com/mdn/yari/issues/9578)) ([c40fb92](https://github.com/mdn/yari/commit/c40fb92112503476b38dbabd6374bad597ff8099))
+
+
+### Miscellaneous
+
+* **deps-dev:** bump @babel/core from 7.22.11 to 7.22.15 ([#9613](https://github.com/mdn/yari/issues/9613)) ([40c9acb](https://github.com/mdn/yari/commit/40c9acbd647d883c30c0acd2272a72e6d8c97f15))
+* **deps-dev:** bump @babel/eslint-parser from 7.22.11 to 7.22.15 ([#9612](https://github.com/mdn/yari/issues/9612)) ([d1192cc](https://github.com/mdn/yari/commit/d1192cc956b2cb344ce256ae812e2379f4eabb7b))
+* **deps-dev:** bump @babel/preset-env from 7.22.10 to 7.22.14 ([#9588](https://github.com/mdn/yari/issues/9588)) ([e4ab1b8](https://github.com/mdn/yari/commit/e4ab1b8da72a561150f8e3f1a4a8cd61fe79f0b9))
+* **deps-dev:** bump @babel/preset-env from 7.22.14 to 7.22.15 ([#9611](https://github.com/mdn/yari/issues/9611)) ([fe52e46](https://github.com/mdn/yari/commit/fe52e468ca64d62124d87cf4b2499e2bb16ea6b3))
+* **deps-dev:** bump @types/cli-progress from 3.11.0 to 3.11.1 ([#9610](https://github.com/mdn/yari/issues/9610)) ([8d88356](https://github.com/mdn/yari/commit/8d88356e0d5b6d150f6991ec544eedfdb5606a66))
+* **deps-dev:** bump postcss-preset-env from 9.1.2 to 9.1.3 ([#9599](https://github.com/mdn/yari/issues/9599)) ([d406235](https://github.com/mdn/yari/commit/d406235c65448a1f25930728f2bf7d3b8ee8cbb7))
+* **deps-dev:** bump pytest from 7.4.0 to 7.4.1 in /deployer ([#9605](https://github.com/mdn/yari/issues/9605)) ([6af6523](https://github.com/mdn/yari/commit/6af6523c4e2a902f1c79d243124c36428f4ac1ac))
+* **deps:** bump [@zip](https://github.com/zip).js/zip.js from 2.7.24 to 2.7.28 in /client/pwa ([#9606](https://github.com/mdn/yari/issues/9606)) ([88afdeb](https://github.com/mdn/yari/commit/88afdeb317f13dbe5b5600ba83bdd23db523bc18))
+* **deps:** bump [@zip](https://github.com/zip).js/zip.js from 2.7.28 to 2.7.29 in /client/pwa ([#9616](https://github.com/mdn/yari/issues/9616)) ([540f1fc](https://github.com/mdn/yari/commit/540f1fca60ae61966b3a500caa244977a70472aa))
+* **deps:** bump boto3 from 1.28.35 to 1.28.40 in /deployer ([#9604](https://github.com/mdn/yari/issues/9604)) ([d0b966d](https://github.com/mdn/yari/commit/d0b966d6a1bc903c70ccde44a368b31561d7e2ca))
+* **deps:** bump cryptography from 41.0.0 to 41.0.3 in /deployer ([#9602](https://github.com/mdn/yari/issues/9602)) ([00fab4d](https://github.com/mdn/yari/commit/00fab4d8069d88682fb4359b53db67759ac24e84))
+* **deps:** bump pytest from 7.4.0 to 7.4.1 in /testing/integration ([#9603](https://github.com/mdn/yari/issues/9603)) ([ae232da](https://github.com/mdn/yari/commit/ae232da32b40fed4ae6f88cb6d86a64ea8abd2ed))
+* **deps:** bump web-specs from 2.66.0 to 2.67.0 ([#9618](https://github.com/mdn/yari/issues/9618)) ([f9bc331](https://github.com/mdn/yari/commit/f9bc3319b78d0c2df568a217d87e1c4a50a90acd))
+* **glean:** renew metrics ([#9592](https://github.com/mdn/yari/issues/9592)) ([0fd72d0](https://github.com/mdn/yari/commit/0fd72d0f5912b6064d61761e0db1931fd5ca1e7d))
+
 ## [2.30.0](https://github.com/mdn/yari/compare/v2.29.0...v2.30.0) (2023-08-30)
 
 
